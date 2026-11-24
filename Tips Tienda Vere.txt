@@ -1,0 +1,8 @@
+Nota sobre las fotos del carrusel: En cada bloque <div class="product-track"> 
+dejé ejemplos listos (pr1.jfif, pr1-2.jfif, etc. con onerror hacia la imagen principal 
+para que nunca se vea una imagen rota mientras subes tus fotos reales). 
+Solo agrega o quita etiquetas <div class="product-slide"><img src="tu-foto.jpg"></div> 
+dentro de cada producto y los puntos y contadores (1 / 3) se ajustarán automáticamente.
+
+Dónde poner tu número de WhatsApp (y renglón exacto)En el código de abajo, 
+busca la sección // CONFIGURACIÓN DE WHATSAPP (alrededor de la línea 489):Renglón 490 (const WHATSAPP_NUMBER = '5217710000000';): Aquí pon tu número con código de país, sin espacios ni signos + (por ejemplo, para México 10 dígitos: 5217711234567).Ese mismo número se usará automáticamente tanto para el botón "Confirmar Compra" del carrito como para el botón "Enviar mensaje ✦" de la sección Contáctanos.   
